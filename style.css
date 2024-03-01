@@ -1,0 +1,33 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(95, 255, 255);
+}
+
+.header {
+    border: 10px solid tan;
+    background-color: beige;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px solid tan;
+    border-bottom: 3px solid tan;
+    margin: 10px 40% 5px 40%;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.menu-bar a, .menu-bar a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.page {
+    margin: 0 15% 0 15%;
+}
